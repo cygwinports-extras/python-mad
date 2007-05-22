@@ -1,0 +1,4 @@
+category: Python Audio
+requires: cygwin libmad python
+sdesc: "Python bindings for libmad"
+ldesc: "Python wrapper for the MPEG Audio Decoder library."

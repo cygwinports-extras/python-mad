@@ -1,0 +1,64 @@
+python-mad
+-------------------------------------------
+Python wrapper for the MPEG Audio Decoder library.
+
+Runtime requirements:
+  cygwin-1.5.24-2
+  libmad-0.15.1b-2
+  python-2.5.1-1
+
+Build requirements:
+  cygwin-1.5.24-2
+  binutils-20060817-1
+  cygport-0.3.1-1
+  gcc-core-3.4.4-3
+  libmad-0.15.1b-2
+  python-2.5.1-1
+
+Canonical homepage:
+  http://spacepants.org/src/pymad/
+
+Canonical download:
+  http://spacepants.org/src/pymad/download/
+
+-------------------------------------------
+
+Build instructions:
+  unpack python-mad-0.6-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./python-mad-0.6-X.cygport all
+
+This will create:
+  /usr/src/python-mad-0.6-X-src.tar.bz2
+  /usr/src/python-mad-0.6-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/python2.5/site-packages/madmodule.dll
+  /usr/lib/python2.5/site-packages/pymad-0.6-py2.5.egg-info
+  /usr/share/doc/Cygwin/python-mad-0.6.README
+  /usr/share/doc/python-mad-0.6/AUTHORS
+  /usr/share/doc/python-mad-0.6/COPYING
+  /usr/share/doc/python-mad-0.6/NEWS
+  /usr/share/doc/python-mad-0.6/README
+  /usr/share/doc/python-mad-0.6/THANKS
+
+------------------
+
+Port Notes:
+
+----- version 0.6-1 -----
+Version bump, built for python-2.5.
+
+----- version 0.5.2-2 -----
+Rebuilt for python-2.4.
+
+----- version 0.5.2-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:  http://cygwin-ports.sourceforge.net/
