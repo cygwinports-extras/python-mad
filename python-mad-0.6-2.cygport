@@ -1,8 +1,10 @@
+ORIG_PN="pymad"
 inherit distutils
 
 DESCRIPTION="Python libmad bindings"
 HOMEPAGE="http://spacepants.org/src/pymad/"
 SRC_URI="http://spacepants.org/src/pymad/download/${ORIG_PN}-${PV}.tar.gz"
+PATCH_URI="0.6-cygwin.patch"
 
 src_compile() {
 	lndirs
