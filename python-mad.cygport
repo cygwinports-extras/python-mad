@@ -1,7 +1,12 @@
 ORIG_PN="pymad"
 inherit distutils
 
-DESCRIPTION="Python libmad bindings"
+NAME="python-mad"
+VERSION=0.6
+RELEASE=4
+CATEGORY="Python"
+SUMMARY="Python bindings for libmad"
+DESCRIPTION="Python wrapper for the MPEG Audio Decoder library."
 HOMEPAGE="http://spacepants.org/src/pymad/"
 SRC_URI="http://spacepants.org/src/pymad/download/${ORIG_PN}-${PV}.tar.gz"
 PATCH_URI="0.6-cygwin.patch"
